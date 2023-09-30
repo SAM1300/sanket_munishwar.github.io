@@ -1,8 +1,11 @@
 body {
-    background-image: linear-gradient(to right, rgb(104, 104, 194), white);
+    /* background-image: linear-gradient(to right, rgb(104, 104, 194), white); */
     /*background-repeat: no-repeat;*/
+    background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     font-family: 'Roboto Mono', monospace;
 }
+
+
 
 .navigation {
     display: flex;
@@ -12,6 +15,7 @@ body {
     height: 3vw;
     margin-top: 0;
     width: 100%;
+    z-index: 1;
     /* padding: 0.5%; */
 }
 
@@ -70,6 +74,7 @@ a:hover:after {
     justify-content: center;
     font-size: 1em;
     margin-top: 10em;
+    z-index: 1;
 }
 .intro > img{
     height: 20em;
